@@ -1,0 +1,30 @@
+{
+  "name": "vvsf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.11",
+    "@heroicons/react": "^2.0.16",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "next": "12.3.3",
+    "react": "18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router": "^6.8.1",
+    "react-transition-group": "^4.4.5",
+    "react-vertical-timeline-component": "^3.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}

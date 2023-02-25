@@ -1,0 +1,1 @@
+{"apis":{"dynamic":[],"nonDynamic":{"/api/hello":"pages/api/hello.js","/api/kabir":"pages/api/kabir.js"}},"domainRedirects":{},"enableHTTPCompression":false}

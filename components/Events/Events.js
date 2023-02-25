@@ -24,7 +24,7 @@ export default function Events() {
             <div className={`{Style.cardBg}`}>
               <img
                 className="w-full p-11 shadow-2xl"
-                src="/ETalks.png"
+                src="/ETalksW.png"
                 alt="Sunset in the mountains"
               />
               <div className="px-6 py-4">
@@ -52,7 +52,7 @@ export default function Events() {
             <div className="{`${Style.cardBg} `}">
               <img
                 className="w-full object-scale-down shadow-2xl"
-                src="/PitchPerfect.png"
+                src="/PitchPerfectW.png"
                 alt="Sunset in the mountains"
               />
               <div className="px-6 py-4">
@@ -78,8 +78,8 @@ export default function Events() {
           <div style={myStyle1} className="max-w-sm sm:pt-3 pt-3 mt-10 sm:mt-0 rounded overflow-hidden shadow-2xl sm:px-4 ">
             <div className="h-full">
               <img
-                className="w-full p-14 h-54 shadow-2xl mb-2"
-                src="/startUp.png"
+                className="w-full p-11 h-54 shadow-2xl mb-2"
+                src="/StartUpStreetW.png"
                 alt="Sunset in the mountains"
               />
               <div className="px-6 py-4">

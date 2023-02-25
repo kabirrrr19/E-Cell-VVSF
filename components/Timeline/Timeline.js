@@ -19,11 +19,11 @@ function Timeline() {
   let timelineElements = [
     {
       id: 1,
-      time: "7:30 A.M",
+      time: "4:00 P.M.",
       title: "Inauguration",
-      date: "23rd Febraury",
+      date: "23rd March",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, odit?",
+        "Embarking the entrepreneurial culture by inaugrating Vasai Virar StartUp Fest",
       icon: "work",
     },
     {

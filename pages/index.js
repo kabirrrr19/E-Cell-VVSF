@@ -7,7 +7,7 @@ import Contact from "@/components/Contact/Contact";
 import Map from "@/components/Map/Map";
 import Footer from "@/components/Footer/Footer";
 import Team from "@/components/Team/Team";
-import Sponsor from "@/components/Sponsor/Sponsor";
+// import Sponsor from "@/components/Sponsor/Sponsor";
 import Pitches from "@/components/Pitches/Pitches";
 import Footer1 from "@/components/Footer/Footer";
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       <Contact />
       <Map />
       <Footer1/>
-      <Sponsor />
+      {/* <Sponsor /> */}
       {/* <Pitches /> */}
     </>
   )

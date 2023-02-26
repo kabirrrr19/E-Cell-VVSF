@@ -37,7 +37,7 @@ export default function Stalls() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 grid-cols-1 md:gap-6 bg-neutral-900 p-10" style={st2}>
+        <div className="grid md:grid-cols-3 grid-cols-1 md:gap-6 bg-neutral-900 p-10 gap-3" style={st2}>
           <div className="sm:col-span-2 md:p-10 p-6 " style={st}>
             <div className=" text-center section-padding">
               <div className="py-3">
@@ -101,7 +101,10 @@ export default function Stalls() {
                 className="text-left"
               >
                 All this for ₹5000/- Only.
-              </div>
+            </div>
+            
+
+            
               {/* <hr style={{backgroundColor: "white" ,  height: "12px"}}/> */}
               <div className=" flex justify-center max-w px-4 py-3 sm:px-6 lg:px-8">
                 <div className="text-center text-white w-2/4 text-xl rounded-lg text-sm px-5 py-3 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-900 focus:outline-none dark:focus:ring-blue-800 cursor-pointer">
@@ -109,14 +112,14 @@ export default function Stalls() {
                     Book a stall here
                     <svg
                       aria-hidden="true"
-                      class="w-4 h-4 ml-2 -mr-1"
+                      className="w-4 h-4 ml-2 -mr-1"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </a>

@@ -20,6 +20,7 @@ export default function Home() {
       <Contact />
       <Map />
       <Footer1/>
+      {/* <Stalls /> */}
     </>
   )
 }

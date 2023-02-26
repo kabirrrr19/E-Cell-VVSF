@@ -42,7 +42,8 @@ export default function Team() {
                         <div className="h-96 w-72">
                             <img
                             className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                            src="https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+                            // src="https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+                            src="kabir.jpg"
                             alt=""
                             />
                         </div>

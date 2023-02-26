@@ -1,7 +1,7 @@
 // import "./Events.module.css"
 // import Card from "./Card"
 
-import Style from "./Events.module.css";
+// import Style from "./Events.module.css";
 import Link from "next/link"
 
 export default function Events() {
@@ -16,21 +16,15 @@ export default function Events() {
   return (
     <>
       <div id="events" style={st} className="pb-10">
+        
         <div className="EventHeader py-8">
           <h1 className="text-center text-4xl text-white">Events</h1>
         </div>
 
         <section className="mx-auto px-6 h-full grid justify-items-center grid-cols-1 grid-gap-1 sm:grid-cols-3 grid-gap-1 pb-10">
-          <div
-            style={myStyle1}
-            className="max-w-sm sm:pt-3 pt-3 my-2 sm:my-0 rounded overflow-hidden shadow-2xl sm:px-4 "
-          >
-            <div className={`{Style.cardBg}`}>
-              <img
-                className="w-full p-11 shadow-2xl"
-                src="/ETalksW.png"
-                alt="E Talks"
-              />
+          
+          <div style={myStyle1} className="max-w-sm sm:pt-3 pt-3 my-2 sm:my-0 rounded overflow-hidden shadow-2xl sm:px-4 ">
+              <img className="w-full p-11 shadow-2xl" src="/ETalksW.png" alt="E Talks"/>
               <div className="px-6 py-4">
                 <div className="text-center text-white font-bold text-xl mb-2">
                   E-Talks
@@ -44,19 +38,15 @@ export default function Events() {
                   more.
                 </p>
               </div>
+              
               <div className="px-6 pt-4 pb-2 text-center">
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   #businesskibaate
                 </span>
               </div>
-            </div>
           </div>
 
-          <div
-            style={myStyle1}
-            className="max-w-sm sm:pt-3 pt-3 my-6 sm:my-0 rounded overflow-hidden shadow-2xl sm:px-4"
-          >
-            <div className="{`${Style.cardBg} `}">
+          <div style={myStyle1} className="max-w-sm sm:pt-3 pt-3 my-6 sm:my-0 rounded overflow-hidden shadow-2xl sm:px-4">
               <img
                 className="w-full object-scale-down shadow-2xl"
                 src="/PitchPerfectW.png"
@@ -79,14 +69,9 @@ export default function Events() {
                   #pitchitgetit
                 </span>
               </div>
-            </div>
           </div>
 
-          <div
-            style={myStyle1}
-            className="max-w-sm sm:pt-3 pt-3 mt-10 sm:mt-0 rounded overflow-hidden shadow-2xl sm:px-4 "
-          >
-            <div className="h-full">
+          <div style={myStyle1} className="max-w-sm sm:pt-3 pt-3 mt-10 sm:mt-0 rounded overflow-hidden shadow-2xl sm:px-4 ">
               <img
                 className="w-full p-11 h-54 shadow-2xl mb-2"
                 src="/StartUpStreetW.png"
@@ -110,14 +95,15 @@ export default function Events() {
                   #innoavate2elevate
                 </span>
               </div>
-            </div>
           </div>
+          
         </section>
 
+        {/* Alert for startup street */}
         <div className="rounded-md flex bg-[#C4F9E2] p-4">
           <Link href={`/Stalls`}>
-            <p className="mx-auto flex items-center text-center  text-sm font-medium text-[#004434] cursor-pointer hover:text-blue-900 hover:underline">
-              <span className="pr-3">
+            <div className="mx-auto flex items-center text-center  text-sm font-medium text-[#004434] cursor-pointer hover:text-blue-900 hover:underline">
+              <div className="pr-3">
                 <svg
                   width="40"
                   height="40"
@@ -133,15 +119,16 @@ export default function Events() {
                     fill="white"
                   ></path>
                 </svg>
-              </span>
+              </div>
               <div>  
                 Click here to be a StartUp at the StartUp Street and get opportunity to
                 interact with mentors and investors and gain investment from a
                 pool of <br /> <b className="text-2xl">&nbsp;50 Crores.</b>
               </div>
-            </p>
+            </div>
           </Link>
         </div>
+
       </div>
     </>
   );

@@ -52,13 +52,13 @@ export default function Example() {
           </div>
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a
+            <button
               href="#"
-              className="text-sm font-semibold leading-6 text-gray-900 font-bold bg-white py-2 px-4 rounded-lg"
+              className="text-sm px-4 py-3 rounded-lg font-semibold leading-6 text-white font-bold bg-blue-600 font-semibold leading-6 text-white  cursor-not-allowed focus:outline-none disabled:opacity-75" disabled
             >
               See Startup Listing
               <span aria-hidden="true">&rarr;</span>
-            </a>
+            </button>
           </div>
         </nav>
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -94,12 +94,9 @@ export default function Example() {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-white hover:bg-gray-400/10"
-                  >
+                  <button className="-mx-3 block rounded-lg py-2.5 px-3 text-base bg-blue-600 font-semibold leading-6 text-white  cursor-not-allowed focus:outline-none disabled:opacity-75" disabled>
                     See Startup Listing
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

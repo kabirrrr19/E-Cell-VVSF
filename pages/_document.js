@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>
       <Head />
-      <title>E-Cell VVSF</title>
+      <title>E-Cell VCET</title>
       <body>
         <Main />
         <NextScript />

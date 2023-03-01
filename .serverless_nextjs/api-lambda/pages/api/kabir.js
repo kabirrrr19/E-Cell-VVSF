@@ -110,7 +110,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 2926:
+/***/ 3903:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -124,7 +124,7 @@ __webpack_require__.r(__webpack_exports__);
 
         
       const { processEnv } = __webpack_require__(9936)
-      processEnv([])
+      processEnv([{"path":".env.production.local","contents":"HOST=\"https://d2e1wx3jo4w5c4.cloudfront.net\""}])
     
         
         const runtimeConfig = {}
@@ -146,7 +146,7 @@ __webpack_require__.r(__webpack_exports__);
           page: "/api/kabir",
           basePath: "",
           pageIsDynamic: false,
-          encodedPreviewProps: {previewModeId:"e697dd7ecd82932c269ea3c69b171b6a",previewModeSigningKey:"76e0bd6adbe3a4427b84a174201e3beaf851f822d718b2ad83d521004b30fedf",previewModeEncryptionKey:"6ac22fbd965b3326a970e540f87d434d68f37f3b5c089c87bae571b360de6970"}
+          encodedPreviewProps: {previewModeId:"714b131fb5b6242840f584779ce73114",previewModeSigningKey:"45c2de764efd2fc487615bd4cf420caf8bcd1dd362f0f8abee87d0b3d17352ce",previewModeEncryptionKey:"190d481a51cffa08a79be5e951142083678b48d5904ef01761320dff376c5c05"}
         })
         /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (apiHandler);
       
@@ -175,7 +175,7 @@ function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [458,800], () => (__webpack_exec__(2926)));
+var __webpack_exports__ = __webpack_require__.X(0, [458,800], () => (__webpack_exec__(3903)));
 module.exports = __webpack_exports__;
 
 })();

@@ -17,16 +17,16 @@ export default function Contact() {
             <div className={Style.cardBg}>
               <div className="px-6 py-6 leading-5">
                 <div className="font-bold text-xl mb-2 text-center">
-                  Team E-Cell
+                  For Opportunities related
                 </div>
                 <p className="text-gray-700 text-base">
-                  <b>Vidit Sheth</b> : 9988776655
+                  <b>Vidit Sheth</b> : 7798881234
                 </p>
                 <p className="text-gray-700 text-base">
-                  <b>Atul Mishra</b> : 9988776655
+                  <b>Atul Mishra</b> : 8805787962
                 </p>
                 <p className="text-gray-700 text-base">
-                  <b>Nidhi Mehta</b> : 9988776655
+                  <b>Nidhi Mehta</b> : 9930602202
                 </p>
                 <p className="text-gray-700 text-base">
                   <b>Kaustubh Pandit</b> : 9988776655

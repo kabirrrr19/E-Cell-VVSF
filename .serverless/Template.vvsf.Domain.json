@@ -1,0 +1,14 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "vvsf.ecell-vcet.org",
+  "subdomains": [
+    {
+      "domain": "www.vvsf.ecell-vcet.org",
+      "distributionId": "E1V9FOJ9ES0Y8T",
+      "url": "https://dmj9xnl573w0e.cloudfront.net",
+      "type": "awsCloudFront"
+    }
+  ],
+  "domainMinimumProtocolVersion": "TLSv1.2_2018"
+}

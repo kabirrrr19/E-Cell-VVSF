@@ -36,8 +36,15 @@ __webpack_require__.r(__webpack_exports__);
 function Document() {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {
         lang: "en",
+        className: "scroll-smooth",
+        style: {
+            scrollBehavior: "smooth"
+        },
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
+                children: "E-Cell VCET"
+            }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("body", {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}),
@@ -54,7 +61,7 @@ function Document() {
 /***/ 7020:
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/DymyfkU_0VoNvejwSfDat/_buildManifest.js","static/DymyfkU_0VoNvejwSfDat/_ssgManifest.js"],"rootMainFiles":[],"pages":{"/":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/chunks/0c428ae2-ab363631383d56b3.js","static/chunks/386-0e606233b53d18f2.js","static/css/f26e545cd0eed51a.css","static/chunks/pages/index-6f3983289b6ee2f2.js"],"/_app":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/css/f8e77fb7cc1c4dd9.css","static/chunks/pages/_app-ec9bb7fbf1282711.js"],"/_error":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/chunks/pages/_error-a4ba2246ff8fb532.js"],"/kabir":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/chunks/pages/kabir-293f82917efcb466.js"]},"ampFirstPages":[]}');
+module.exports = JSON.parse('{"polyfillFiles":["static/chunks/polyfills-c67a75d1b6f99dc8.js"],"devFiles":[],"ampDevFiles":[],"lowPriorityFiles":["static/PuPSU4Rr6LhmOQYFuUH3o/_buildManifest.js","static/PuPSU4Rr6LhmOQYFuUH3o/_ssgManifest.js"],"rootMainFiles":[],"pages":{"/":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/chunks/0c428ae2-ab363631383d56b3.js","static/chunks/664-6863c832d33388a7.js","static/chunks/386-0e606233b53d18f2.js","static/css/cc2ed2eaab1c1e9d.css","static/chunks/pages/index-6703edde70a709ea.js"],"/Stalls":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/chunks/664-6863c832d33388a7.js","static/chunks/pages/Stalls-7ad7d0a447e09738.js"],"/_app":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/css/b3bf8533b08794f6.css","static/chunks/pages/_app-f09cf894b959466a.js"],"/_error":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/chunks/pages/_error-a4ba2246ff8fb532.js"],"/kabir":["static/chunks/webpack-c491b2a411a4f8fa.js","static/chunks/framework-4556c45dd113b893.js","static/chunks/main-00c107e99fb78f3f.js","static/chunks/pages/kabir-7e9cf4cb15d36e6d.js"]},"ampFirstPages":[]}');
 
 /***/ }),
 

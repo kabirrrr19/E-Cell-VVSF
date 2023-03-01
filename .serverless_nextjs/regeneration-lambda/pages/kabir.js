@@ -5,7 +5,7 @@ exports.id = 971;
 exports.ids = [971];
 exports.modules = {
 
-/***/ 1286:
+/***/ 4133:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -37,7 +37,7 @@ __webpack_require__.r(__webpack_exports__);
 
       
       const { processEnv } = __webpack_require__(2333)
-      processEnv([])
+      processEnv([{"path":".env.production.local","contents":"HOST=\"https://d2e1wx3jo4w5c4.cloudfront.net\""}])
     
       
       const runtimeConfig = {}
@@ -95,11 +95,11 @@ __webpack_require__.r(__webpack_exports__);
         rewrites: rewrites,
         i18n: undefined,
         page: "/kabir",
-        buildId: "DymyfkU_0VoNvejwSfDat",
-        escapedBuildId: "DymyfkU_0VoNvejwSfDat",
+        buildId: "PuPSU4Rr6LhmOQYFuUH3o",
+        escapedBuildId: "PuPSU4Rr6LhmOQYFuUH3o",
         basePath: "",
         pageIsDynamic: false,
-        encodedPreviewProps: {previewModeId:"e697dd7ecd82932c269ea3c69b171b6a",previewModeSigningKey:"76e0bd6adbe3a4427b84a174201e3beaf851f822d718b2ad83d521004b30fedf",previewModeEncryptionKey:"6ac22fbd965b3326a970e540f87d434d68f37f3b5c089c87bae571b360de6970"}
+        encodedPreviewProps: {previewModeId:"714b131fb5b6242840f584779ce73114",previewModeSigningKey:"45c2de764efd2fc487615bd4cf420caf8bcd1dd362f0f8abee87d0b3d17352ce",previewModeEncryptionKey:"190d481a51cffa08a79be5e951142083678b48d5904ef01761320dff376c5c05"}
       })
       
     
@@ -115,27 +115,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3437);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1017);
+/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);
 
-function Kabir({ data  }) {
-    console.log(data);
-    let c = JSON.stringify(data);
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-        className: "",
-        children: c
+
+function Kabir({ d  }) {
+    console.log(d);
+    // let c = JSON.stringify(data)
+    console.log("laudaa");
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+            children: "Hello"
+        })
     });
 }
+
 async function getServerSideProps() {
     // Fetch data from external API
-    const res = await fetch(`https://jsonplaceholder.typicode.com/todos/1`);
-    const data = await res.json();
-    // Pass data to the page via props
+    // const res = await fetch("../public/1.json");
+    // const data = await res.json();
+    // console.log(data)
+    // let data = {
+    //     "hey": "kabir",
+    // }
+    var config = {
+        method: "get",
+        maxBodyLength: Infinity,
+        url: `http://localhost:3000/details/1.json`,
+        headers: {}
+    };
+    let main = await (0,axios__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z)(config);
+    let d = main.data;
+    console.log(main.data);
+    // console.log(d)
     return {
         props: {
-            data
+            d
         }
     };
-// Pagination
-// Algolia/Cloudsearch
 }
 
 
@@ -152,6 +170,13 @@ module.exports = require("critters");
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/@ampproject/toolbox-optimizer");
+
+/***/ }),
+
+/***/ 9491:
+/***/ ((module) => {
+
+module.exports = require("assert");
 
 /***/ }),
 
@@ -274,7 +299,7 @@ module.exports = require("zlib");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [664,362], () => (__webpack_exec__(1286)));
+var __webpack_exports__ = __webpack_require__.X(0, [664,437,362], () => (__webpack_exec__(4133)));
 module.exports = __webpack_exports__;
 
 })();

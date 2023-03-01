@@ -1,6 +1,6 @@
 {
-  "name": "8ce5mcm-8h5sfjo",
-  "arn": "arn:aws:iam::112302628069:role/8ce5mcm-8h5sfjo",
+  "name": "9q0moy-1k3pjgi",
+  "arn": "arn:aws:iam::112302628069:role/9q0moy-1k3pjgi",
   "service": [
     "edgelambda.amazonaws.com",
     "lambda.amazonaws.com"
@@ -19,7 +19,7 @@
       },
       {
         "Effect": "Allow",
-        "Resource": "arn:aws:s3:::8ce5mcm-i327hdg/*",
+        "Resource": "arn:aws:s3:::9q0moy-21wkmec/*",
         "Action": [
           "s3:GetObject",
           "s3:PutObject"

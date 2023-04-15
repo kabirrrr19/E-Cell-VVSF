@@ -19,9 +19,9 @@ function Timeline() {
   let timelineElements = [
     {
       id: 1,
-      time: "4:00 PM to 6:00 PM",
+      time: "10:00 AM to 12:00 PM",
       title: "Inauguration",
-      date: "23rd March",
+      date: "24th March",
       description:
         "Embarking the entrepreneurial culture by inaugrating Vasai Virar StartUp Fest.",
       icon: "work",
@@ -145,6 +145,7 @@ function Timeline() {
 
           return (
             <VerticalTimelineElement
+              contentStyle={{ background: "rgba(0, 0, 0, 1)", color: "#fff" }}
               key={element.id}
               date={element.date}
               dateClassName={Styles.date}
@@ -152,7 +153,7 @@ function Timeline() {
               icon={<img src="/code.png" className={Styles.image} />}
               // iconClassName={Styles.imgicon}
             >
-              <p >{element.time}</p>
+              <p>{element.time}</p>
               <h3 className="vertical-timeline-element-title">
                 {element.title}
               </h3>

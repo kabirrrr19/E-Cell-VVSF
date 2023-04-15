@@ -13,7 +13,7 @@ export default function Contact() {
         </div>
 
         <section className="mx-auto w-full h-full grid justify-items-center grid-cols-1 sm:grid-cols-3 ">
-          <div className="max-w-xs pt-3 w-full h-full text-center rounded overflow-hidden shadow-lg mx-auto px-2">
+          <div className="max-w-xs pt-gi3 w-full h-full text-center rounded overflow-hidden shadow-lg mx-auto px-2">
             <div className={Style.cardBg}>
               <div className="px-6 py-6 leading-5">
                 <div className="font-bold text-xl mb-2 text-center">
@@ -39,10 +39,10 @@ export default function Contact() {
             <div className={Style.cardBg}>
               <div className="px-6 py-6">
                 <div className="font-bold text-xl mb-2 text-center">
-                  Adress:
+                  Address:
                 </div>
                 <p className="text-gray-700 text-base leading-5">
-                  Vidyavardhini College of Engineering and Technology, K.T.
+                  Vidyavardhini's College of Engineering and Technology, K.T.
                   Marg, Vasai Road, Vasai-Virar, Maharashtra 401202
                   <br />
                   <br />

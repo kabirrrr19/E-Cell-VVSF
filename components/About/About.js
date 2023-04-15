@@ -32,7 +32,7 @@ export default function About() {
               </h2>
 
               <p className="mt-4 text-white">
-                It is a student-run and faculty-led group that works to develop
+                It is a student-run and faculty-led organization that works to develop
                 the skills of aspiring engineers. It began in 2015 and now has
                 an impressive 100+ students from different V.C.E.T. branches
                 participating. Students participate in a wide range of
@@ -65,7 +65,7 @@ export default function About() {
             </div>
             <div className="lg:py-24">
               <h2 className="text-3xl font-bold sm:text-4xl text-white">
-                What is VVSF
+                What is Vasai-Virar Startup Fest
               </h2>
 
               <p className="mt-4 text-white">
